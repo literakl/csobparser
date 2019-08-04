@@ -1,0 +1,4 @@
+rootProject.name = 'csobparser'
+include 'parser'
+findProject(':parser')?.name = 'csobparser'
+
